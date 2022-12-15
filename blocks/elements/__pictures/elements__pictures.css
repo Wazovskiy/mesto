@@ -1,0 +1,6 @@
+.elements__pictures {
+    padding: 0;
+    margin: 0 0 22px;
+    width: 100%;
+    object-fit: contain;
+}

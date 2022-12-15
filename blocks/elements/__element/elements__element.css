@@ -1,0 +1,15 @@
+.elements__element {
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 320px) {
+    .elements__element {
+        margin: 0;
+        padding: 0;
+        max-width: 282px;
+    }
+}

@@ -1,0 +1,17 @@
+.popup {
+  display: block;
+  padding: 0;
+  margin: 150px auto 0;
+  position: fixed;
+  width: 511px;
+  min-height: 500px;
+  display: none;
+}
+
+
+@media screen and (max-width: 320px) {
+  .popup {
+    width: 320px;
+    margin: 82px auto 0;
+  }
+}
