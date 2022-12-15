@@ -25,6 +25,8 @@
     .profile__text-simple {
         font-size: 14px;
         line-height: 17px;
-        text-align: center;
+        /* text-align: end; */
+        max-width: 160px;
+        padding-left: 28px;
     }
 }
