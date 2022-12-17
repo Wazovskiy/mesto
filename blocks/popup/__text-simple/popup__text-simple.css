@@ -1,27 +1,18 @@
 .popup__text-simple {
-
     border: 0;
     padding: 0;
     padding-bottom: 8px;
     margin: 0;
     margin-top: 12px;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin-bottom: 19px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: #000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .popup__text-simple:focus {
     outline: none;
-}
-
-@media screen and (max-width: 320px) {
-    .popup__text-simple {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-
-    }
 }

@@ -1,7 +1,6 @@
 .profile__text-simple {
     margin: 0;
     padding: 0;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -13,20 +12,20 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 655px) {
     .profile__text-simple {
         font-size: 16px;
         line-height: 18px;
         text-align: left;
+        width: 200px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 365px) {
     .profile__text-simple {
         font-size: 14px;
         line-height: 17px;
-        /* text-align: end; */
-        max-width: 160px;
+        width: 160px;
         padding-left: 28px;
     }
 }

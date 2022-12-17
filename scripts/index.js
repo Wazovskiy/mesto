@@ -6,14 +6,14 @@ let textFirst = document.querySelector('#first');
 let textSecond = document.querySelector('#second');
 let profileHeadText = document.querySelector('.profile__text-head');
 let profileText = document.querySelector('.profile__text-simple');
+let saveForm = document.querySelector('.form_popup');
 
 editButton.addEventListener('click', editButtonFunction);
 popupClose.addEventListener('click', editButtonFunction);
-saveButton.addEventListener('click', saveButtonFunction);
+saveForm.addEventListener('submit', saveButtonFunction);
 
 function editButtonFunction() {
-    // editButton.setAttribute('style', 'background-color:  white');
-    popup.classList.toggle('popup_opened');
+    popup.classList.toggle('popup__opened');
     textFirst.value = `${profileHeadText.textContent}`;
     textSecond.value = `${profileText.textContent}`;
 };
@@ -22,6 +22,11 @@ function saveButtonFunction(evt) {
     evt.preventDefault();
     profileHeadText.textContent = `${textFirst.value}`;
     profileText.textContent = `${textSecond.value}`;
-    popup.classList.toggle('popup_opened');
+    editButtonFunction();
 };
 
+let like = document.querySelector('.elements__like');
+like.addEventListener('click', addlike);
+function addlike() {
+    like.classList.toggle('elements__like_active');
+};

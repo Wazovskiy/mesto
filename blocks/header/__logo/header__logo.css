@@ -9,14 +9,14 @@
     background-repeat: none;
     background-position: top;
     margin-left: 1px;
+    margin-bottom: 40px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 365px) {
     .header__logo {
         width: 108px;
         height: 24px;
-        margin-left: 5px;
         background-size: cover;
-        margin-top: 1px;
+        margin: 1px 100px 30px 25px;
     }
 }

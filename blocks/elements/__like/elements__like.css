@@ -6,11 +6,14 @@
     width: 22px;
     height: 19px;
     color: black;
+    border: 0;
+    background-color: white;
 }
 
 .elements__like:hover {
     opacity: .5;
 }
+
 
 .elements__like:active {
     opacity: 1;
