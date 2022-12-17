@@ -6,7 +6,7 @@ let textFirst = document.querySelector('#first');
 let textSecond = document.querySelector('#second');
 let profileHeadText = document.querySelector('.profile__text-head');
 let profileText = document.querySelector('.profile__text-simple');
-let saveForm = document.querySelector('.form_popup');
+let saveForm = document.querySelector('.form');
 
 editButton.addEventListener('click', editButtonFunction);
 popupClose.addEventListener('click', editButtonFunction);
