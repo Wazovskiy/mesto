@@ -1,7 +1,7 @@
 .popup__submit {
     border: 0;
     border-radius: 2px;
-    padding: 0;
+    padding: 14px;
     margin-top: 30px;
     width: 100%;
     font-style: normal;
@@ -11,7 +11,7 @@
     text-align: center;
     color: #FFFFFF;
     background-color: black;
-    height: 50px;
+    cursor: pointer;
 }
 
 .popup__submit:hover {
@@ -23,6 +23,5 @@
         font-size: 14px;
         line-height: 17px;
         margin-top: 27px;
-        height: 44px;
     }
 }

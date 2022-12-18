@@ -7,6 +7,8 @@
     background-image: url(../../../images/edit_button.svg);
     background-color: black;
     border: 0;
+    background-size: contain;
+    cursor: pointer;
 }
 
 .profile__edit-button:hover {
@@ -31,7 +33,6 @@
     .profile__edit-button {
         width: 18px;
         height: 18px;
-        background-size: contain;
         margin: 0 0 30px;
     }
 }
@@ -39,6 +40,5 @@
 @media screen and (max-width: 320px) {
     .profile__edit-button {
         margin-bottom: 56px;
-
     }
 }

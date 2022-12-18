@@ -2,6 +2,9 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: auto;
+  aspect-ratio: 1/1;
 }
 
 @media screen and (max-width: 655px) {

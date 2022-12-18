@@ -9,7 +9,6 @@
 @media screen and (max-width: 655px) {
     .profile__info {
         margin-bottom: 10px;
-        /* max-width: 100px; */
         align-items: flex-start;
     }
 }

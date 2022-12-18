@@ -8,13 +8,14 @@
     color: black;
     border: 0;
     background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .elements__like:hover {
     opacity: .5;
 }
-
-
 .elements__like:active {
     opacity: 1;
     background-image: url(../../../images/like_active.png);

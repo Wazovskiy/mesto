@@ -13,7 +13,7 @@ popupClose.addEventListener('click', editButtonFunction);
 saveForm.addEventListener('submit', saveButtonFunction);
 
 function editButtonFunction() {
-    popup.classList.toggle('popup__opened');
+    popup.classList.toggle('popup_opened');
     textFirst.value = `${profileHeadText.textContent}`;
     textSecond.value = `${profileText.textContent}`;
 };
