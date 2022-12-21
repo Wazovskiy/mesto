@@ -18,5 +18,5 @@
 }
 .elements__like:active {
     opacity: 1;
-    background-image: url(../../../images/like_active.png);
+    background-image: url(../../../images/like_active.svg);
 }

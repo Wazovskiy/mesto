@@ -1,32 +1,25 @@
 .popup__text-header {
-    margin: 0 auto 37px;
+    margin: 0;
+    margin-bottom: 36px;
     padding: 0;
-    padding-top: 34px;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 29px;
     color: #000;
-    border: 0;
-    max-width: 358px;
-    text-align: start;
+    text-align: left;
 }
 
 @media screen and (max-width: 441px) {
     .popup__text-header {
-        margin: 26px auto 63px;
         font-size: 20px;
         line-height: 22px;
-        text-align: center;
     }
 }
 
 @media screen and (max-width: 320px) {
     .popup__text-header {
-        margin-top: 0;
-        padding-top: 26px;
         font-size: 18px;
-        text-align: start;
-        max-width: 240px;
+        margin-bottom: 76px;
     }
 }

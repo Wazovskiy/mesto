@@ -1,7 +1,7 @@
 .popup__submit {
     border: 0;
     border-radius: 2px;
-    padding: 14px;
+    padding: 15px;
     margin-top: 30px;
     width: 100%;
     font-style: normal;
@@ -9,7 +9,7 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    color: #FFFFFF;
+    color: #FFF;
     background-color: black;
     cursor: pointer;
 }
@@ -22,6 +22,6 @@
     .popup__submit {
         font-size: 14px;
         line-height: 17px;
-        margin-top: 27px;
+        margin-top: 15px;
     }
 }

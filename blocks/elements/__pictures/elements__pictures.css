@@ -3,6 +3,6 @@
     margin: 0 0 22px;
     width: 100%;
     object-fit: cover;
-    object-position: auto;
+    object-position: center;
     aspect-ratio: 1/1;
 }

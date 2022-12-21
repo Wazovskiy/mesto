@@ -1,4 +1,3 @@
 .popup_opened {
-    display: block; 
+    display: flex;
 }
-/* в задании указано либо flex либо block, я выбрал block */
